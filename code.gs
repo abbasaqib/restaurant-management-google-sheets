@@ -1,6 +1,4 @@
-function test(){
-  Logger.log(callGeminiAPI('What is abc'))
-}
+
 // ==============================================
 // MAIN CONFIGURATION
 // ==============================================
@@ -15,7 +13,7 @@ const CONFIG = {
   LOGO_FILE_ID: '1u34EHuMY8q-_ZOtOu43CfENIrdhxPuaR', // Logo file ID
   SIGNATURE_IMAGE_ID: 'YOUR_SIGNATURE_IMAGE_ID', // Replace with your signature image ID
   SPREADSHEET_ID: '1TrB-ACjCGKSee8QWwZ68EHa96WDFfI7q8vjG6gNCjsE', // Replace with your Google Sheet ID
-  GEMINI_API_KEY: 'AIzaSyCDqwZwZK0zA24-YDypDQ8qbhvl6kTQRYg', // Add your Gemini API key here
+  GEMINI_API_KEY: 'YOUR_GEMINI_KEY', // Add your Gemini API key here
   EDITORS: [
     'martha@zomaculinary.com',
     'jasonhurley@zomaculinary.com',
